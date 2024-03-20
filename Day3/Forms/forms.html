@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h2>Form 1</h2>
+    <form>
+        <labeL for="FirstName">First Name</labeL>
+        <input type="text" name="FirstName"
+        id="FirstName" required>
+        <br>
+        <label for="PassWord">Password:</label>
+        <input type="password" name="PassWord"
+        id="PassWord" required>
+        <br>
+        <label for="Email">Email Address:</label>
+        <input type="email" name="Email" id="Email">
+        <br>
+        <label for="PhoneNum">Phone Number:</label>
+        <input type="tel" name="PhoneNum" id="PhoneNum"
+        pattern="\+\(\d{2}\) \d{3}-\d{3}-\d{4}"
+        placeholder="+(12) 345-678-9000">
+        <br>
+        <label for="Msg">Message:</label>
+        <textarea type="message" name="Msg" id="Msg"
+        rows="5" cols="25"></textarea>
+        <br>
+        <label for="OS">Operating System</label>
+        <select name="os" id="os">
+            <option value="none">-----</option>
+            <option value="windows">Windows</option>
+            <option value="linux">Linux</option>
+            <option value="macos">Mac OS</option>
+            <option value="solaris">Solaris</option>
+            <option value="freebsd">FreeBSD</option>
+        </select>
+        <br>
+        <h3>Gender</h3>
+        <input type="radio" name="gender1" id="male" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender2" id="female" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" name="gender3" id="others" value="others">
+        <label for="others">Prefer not to say</label>
+        <br>
+        <h3>Sex</h3>
+        <input type="checkbox" name="sex1" id="malesex" value="malesex">
+        <label for="malesex">Male</label>
+        <input type="checkbox" name="sex2" id="femalesex" value="femalesex">
+        <label for="femalesex">Female</label>
+        <br>
+        <button type="submit">Submit Form</button>
+    </form>
+</body>
+</html>
