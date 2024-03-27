@@ -1,0 +1,39 @@
+/*Comments in CSS*/
+* {
+    color: violet;
+}
+
+p {
+    color: red;
+}
+
+.classex {
+    color: fuchsia;
+}
+
+#idex {
+    color: tomato;
+}
+
+a[href]{
+    color: green;
+}
+
+a[href="https://www.google.com"]{
+    color: pink;
+}
+
+h1,h2,h3 {
+    color: lightblue;
+    font-size: 20px;
+    background-color: cadetblue;
+}
+
+.head1, #head2, h3 {
+    background-color: #fe4f02;
+    color: #04859c
+}
+
+.head1:hover {
+    background-color: rgba(248, 0, 243, 0.934);
+}

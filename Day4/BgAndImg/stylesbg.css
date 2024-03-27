@@ -1,0 +1,27 @@
+.color-example {
+    color: red;
+    background-color: aqua;
+}
+
+.background-example {
+    background-color: #ffaa00;
+    color: rgb(171, 0, 202);
+}
+
+.background-position-example {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+    height: 300px;
+    width: 500px;
+    background-color: aqua;
+    color: aliceblue;
+    background-repeat: no-repeat;
+}
+
+.opacity-example {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.img-name {
+    height: 200px;
+    width: 200px;
+}
